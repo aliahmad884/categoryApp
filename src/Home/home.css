@@ -1,0 +1,48 @@
+.bg {
+  text-align: center;
+  padding: 20px 0 0 0;
+  color: black;
+}
+.hr {
+  /* margin-top:30px;
+    margin-bottom:20px; */
+  /* margin:auto; */
+  margin: 20px auto 20px auto;
+}
+.styleLink {
+  text-decoration: none;
+  color: black;
+}
+
+.empty {
+  /* position: relative; */
+  display: flex;
+  flex-flow:column;
+  align-items: center;
+  justify-content: center;
+}
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 100%;
+}
+
+.bg-color {
+  color: white;
+}
+
+.Gbg-color-hover {
+  color: black;
+}
+.Gbg-color-hover:hover {
+  color: white;
+  transition: ease-out 0.4s;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+}
+.navStatic {
+  position: static;
+  /* position: fixed; */
+}

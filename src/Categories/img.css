@@ -1,0 +1,87 @@
+.cimage {
+  width: 32px;
+}
+
+.dnone {
+  display: none;
+}
+
+.bg-color {
+  background-color: #2f25e2;
+  color: white;
+}
+.StyleLink {
+  text-decoration: none;
+  color: black;
+}
+
+.welcomeRow {
+  /* margin-top: 100px; */
+  padding: 50px 0 50px 0px;
+}
+
+.Adminwelcometext {
+  /* margin-top: 100px; */
+  padding: 100px 0 100px 250px;
+}
+
+.body {
+  margin: 0;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: rgb(221, 220, 220); */
+}
+
+.loader {
+  width: 10em;
+  height: 3.5em;
+  border: 0.3em solid silver;
+  border-radius: 3em;
+  font-size: 20px;
+  border-left-color: black;
+  border-right-color: #0dcaf0;
+  position: relative;
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loader::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color: #0dcaf0;
+  animation: shift 3s linear infinite, change-color 3s linear infinite;
+}
+
+@keyframes shift {
+  50% {
+    left: 7em;
+  }
+}
+
+@keyframes change-color {
+  0%,
+  55% {
+    background-color: #0dcaf0;
+  }
+
+  5%,
+  50% {
+    background-color: black;
+  }
+}
+
+.none {
+  display: none;
+}
